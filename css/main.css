@@ -43,18 +43,6 @@ textarea {
   resize: vertical;
 }
 
-input[type=email],
-select,
-textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-top: 7px;
-  margin-bottom: 14px;
-  resize: vertical;
-}
-
 input[type=checkbox],
 select,
 textarea {
