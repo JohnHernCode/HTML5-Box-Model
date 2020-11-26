@@ -15,7 +15,38 @@
 </head>
 
 <body>
-    <header class="heading">Hello World!</header>
+    <!--<header class="heading">Hello World!</header>-->
+    
+    <div class="form-style" >
+        <h1>Welcome</h1>
+        <p>Please fill out the form below!</p>
+        <form  class="form-fields" action="submit">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Insert Your Name!" maxlength="20" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="Name" placeholder="Insert Your Email!" maxlength="20" required>
+            <br><br>
+            <label for="question">What is your overall opinion about this article?</label>
+            <br><br>
+            <select id="question" name="Question" required>
+                <option>Positive</option>
+                <option>Negative</option>
+                <option>Nuetral</option>
+            </select>
+            <br><br>
+            <div>Would you like to subscribe to our newsletter?</div>
+            <input type="checkbox" id="checkbox" name="checkbox" value="yes">
+            <label for="checkbox" id="checkbox">Yes</label>
+            <br><br>
+            <label for="comment">Any Comments?</label>
+            <br><br>
+            <textarea id="comment" name="Comment" placeholder="Type your comment here..." maxlength="250" style="height:250px" required></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
     <script src="js/scripts.js"></script>
 </body>
 
