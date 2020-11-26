@@ -18,7 +18,7 @@
   color: darkred;
   font-weight: bold;
   font-size: larger;
-  -webkit-text-stroke-width: .5px; 
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: rgb(252, 249, 249);
 }
 
@@ -38,7 +38,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 7px;
   margin-bottom: 14px;
-  resize: vertical 
+  resize: vertical
 }
 
 input[type=checkbox], select, textarea {
@@ -46,7 +46,6 @@ input[type=checkbox], select, textarea {
   border-radius: 5px;
   margin-top: 7px;
 }
-
 
 input[type=submit] {
   background-color: black;
