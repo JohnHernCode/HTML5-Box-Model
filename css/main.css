@@ -31,14 +31,14 @@
   padding-bottom: 20px;
 }
 
-input[type=text], select, textarea {
+input[type=text],select,textarea {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
   margin-top: 7px;
   margin-bottom: 14px;
-  resize: vertical
+  resize: vertical;
 }
 
 input[type=checkbox], select, textarea {
