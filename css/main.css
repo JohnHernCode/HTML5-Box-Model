@@ -28,6 +28,7 @@
 
 .form-fields {
   width: 100%;
+  padding-bottom: 20px;
 }
 
 input[type=text], select, textarea {
@@ -44,4 +45,14 @@ input[type=checkbox], select, textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 7px;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
