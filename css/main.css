@@ -43,7 +43,9 @@ textarea {
   resize: vertical;
 }
 
-input[type=checkbox], select, textarea {
+input[type=checkbox],
+select,
+textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 7px;
